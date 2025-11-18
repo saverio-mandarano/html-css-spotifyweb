@@ -133,9 +133,8 @@ h4 {
   color: white;
 }
 
-/* music-player section */
+/* footer */
 footer {
-  height: 50px;
   flex-grow: 0;
   flex-shrink: 0;
   /* DEBUG */
@@ -143,4 +142,24 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* music-info */
+.music-info {
+  display: flex;
+  margin: 1rem;
+  gap: 10px;
+  align-items: center;
+}
+
+.music-info img {
+  width: 10%;
+}
+
+.music-info .info h5 {
+  color: white;
+}
+
+.music-info .info h6 {
+  color: grey;
 }
