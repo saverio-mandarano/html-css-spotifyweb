@@ -26,7 +26,7 @@ main {
 }
 
 footer {
-  height: 100px;
+  height: 50px;
   flex-grow: 0;
   flex-shrink: 0;
   /* DEBUG */
@@ -48,10 +48,10 @@ footer {
   background-color: black;
   flex-basis: calc(100% - 87%);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 4rem;
 }
 
 .side-bar .logo img {
@@ -98,4 +98,45 @@ h4 {
 
 .playlist ul li:first-child {
   font-size: 1.5rem;
+}
+
+/* lower-bar-section */
+.lower-bar {
+  display: flex;
+  flex-direction: column;
+}
+.download {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.download img {
+  width: 15%;
+}
+
+.download h5 {
+  color: grey;
+}
+
+.line {
+  border: 1px solid grey;
+  width: 90%;
+  margin: 10px;
+}
+
+.user-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.user-area img {
+  width: 10%;
+}
+
+.user-area h5 {
+  color: white;
 }
