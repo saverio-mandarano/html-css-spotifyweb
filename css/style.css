@@ -25,14 +25,6 @@ main {
   background-color: blueviolet;
 }
 
-footer {
-  height: 50px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  /* DEBUG */
-  background-color: brown;
-}
-
 /* App */
 .app {
   flex: 1;
@@ -139,4 +131,16 @@ h4 {
 
 .user-area h5 {
   color: white;
+}
+
+/* music-player section */
+footer {
+  height: 50px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  /* DEBUG */
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
