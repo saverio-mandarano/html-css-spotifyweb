@@ -167,3 +167,13 @@ footer {
 .music-info .info h6 {
   color: grey;
 }
+
+/* icone */
+.fa-heart {
+  margin-left: 20px;
+}
+
+.fa-regular {
+  font-size: 18px;
+  color: grey;
+}
