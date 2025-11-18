@@ -17,10 +17,10 @@ body {
 }
 
 main {
+  /* overflow: auto; */
   flex-grow: 1;
-  overflow: auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* DEBUG */
   background-color: blueviolet;
 }
@@ -33,27 +33,31 @@ main {
 }
 
 /* Generals */
+ul {
+  list-style: none;
+}
 
 /* Side-bar */
 .side-bar {
   /* DEBUG */
   background-color: black;
-  flex-basis: calc(100% - 87%);
+  flex-basis: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 4rem;
+  padding-left: 10px;
 }
 
 .side-bar .logo img {
-  width: 100%;
+  width: 80%;
 }
 
 .logo {
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .side-bar .icon-nav img {
@@ -65,7 +69,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  margin-left: 10px;
+  padding-left: 10px;
   margin-bottom: 10px;
 }
 
@@ -101,7 +105,6 @@ h4 {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 10px;
 }
 
 .download img {
@@ -115,14 +118,14 @@ h4 {
 .line {
   border: 1px solid grey;
   width: 90%;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .user-area {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .user-area img {
@@ -135,6 +138,7 @@ h4 {
 
 /* footer */
 footer {
+  height: 100px;
   flex-grow: 0;
   flex-shrink: 0;
   /* DEBUG */
@@ -147,7 +151,7 @@ footer {
 /* music-info */
 .music-info {
   display: flex;
-  margin: 1rem;
+  padding: 10px;
   gap: 10px;
   align-items: center;
 }
