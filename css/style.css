@@ -21,7 +21,6 @@ main {
   overflow: auto;
   display: flex;
   justify-content: space-between;
-  gap: 5px;
   /* DEBUG */
   background-color: blueviolet;
 }
@@ -34,15 +33,47 @@ footer {
   background-color: brown;
 }
 
-.side-bar {
-  flex-basis: calc(100% - 80% - (5px / 2));
-  /* DEBUG */
-  background-color: black;
-  /*  Come faccio che chiudo la side-bar ?*/
-}
-
+/* App */
 .app {
   flex: 1;
   /* DEBUG */
+  background-color: white;
+}
+
+/* Generals */
+
+/* Side-bar */
+.side-bar {
+  /* DEBUG */
   background-color: black;
+  flex-basis: calc(100% - 87%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.side-bar .logo img {
+  width: 70%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.side-bar .icon-nav img {
+  width: 15%;
+}
+
+.icon-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-nav h5 {
+  color: white;
 }
