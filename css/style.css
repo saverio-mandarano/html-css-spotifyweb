@@ -1,0 +1,48 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+body {
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+}
+
+#wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  /* DEBUG */
+  background-color: blueviolet;
+}
+
+footer {
+  height: 100px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  /* DEBUG */
+  background-color: brown;
+}
+
+.side-bar {
+  flex-basis: calc(100% - 80% - (5px / 2));
+  /* DEBUG */
+  background-color: black;
+  /*  Come faccio che chiudo la side-bar ?*/
+}
+
+.app {
+  flex: 1;
+  /* DEBUG */
+  background-color: black;
+}
