@@ -48,19 +48,20 @@ footer {
   background-color: black;
   flex-basis: calc(100% - 87%);
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  gap: 1rem;
 }
 
 .side-bar .logo img {
-  width: 70%;
+  width: 100%;
 }
 
 .logo {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin: 1rem;
 }
 
 .side-bar .icon-nav img {
@@ -72,8 +73,9 @@ footer {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
+  margin-left: 10px;
 }
 
 .icon-nav h5 {
-  color: white;
+  color: grey;
 }
