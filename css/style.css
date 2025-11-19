@@ -51,9 +51,6 @@ main {
   background-color: rgba(8, 11, 18, 0.5);
 }
 
-.app-content {
-}
-
 /* Generals */
 ul {
   list-style: none;
@@ -327,4 +324,22 @@ footer {
   height: 12px;
   background-color: white;
   border-radius: 50%;
+}
+
+/* APP CONTENT */
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.nav-bar ul li {
+  color: grey;
+  cursor: pointer;
+}
+
+.nav-bar ul li:hover {
+  color: white;
 }
