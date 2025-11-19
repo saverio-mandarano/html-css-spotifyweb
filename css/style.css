@@ -229,7 +229,7 @@ footer {
   cursor: pointer;
 }
 
-.fa-circle-play:hover {
+footer .fa-circle-play:hover {
   font-size: 33px;
 }
 
@@ -408,4 +408,22 @@ h4 {
 
 .popular-artist .card {
   margin-right: 20px;
+}
+
+/* heart section */
+.img-wrapper {
+  position: relative;
+}
+
+.centro {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.img-wrapper:hover .centro {
+  opacity: 1;
 }
