@@ -176,6 +176,11 @@ footer {
 .fa-regular {
   font-size: 18px;
   color: grey;
+  cursor: pointer;
+}
+
+.fa-regular:hover {
+  color: white;
 }
 
 .fa-solid {
@@ -186,6 +191,11 @@ footer {
 .fa-circle-play {
   color: white;
   font-size: 30px;
+  cursor: pointer;
+}
+
+.fa-circle-play:hover {
+  font-size: 33px;
 }
 
 .music-setting .fa-solid {
@@ -207,6 +217,13 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  height: 30px;
+}
+
+.player-controls i {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
 }
 
 .player-time {
@@ -226,6 +243,7 @@ footer {
   height: 5px;
   background: grey;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .time-bar {
@@ -246,5 +264,13 @@ footer {
 
 .music-setting .time-container {
   width: 100px;
-  height: 4px;
+  height: 5px;
+}
+
+.music-setting .time-bar {
+  width: 50%;
+}
+
+.time-container:hover .time-bar {
+  background-color: greenyellow;
 }
