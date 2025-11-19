@@ -17,10 +17,8 @@ body {
 }
 
 main {
-  /* overflow: auto; */
   flex-grow: 1;
   display: flex;
-  /* justify-content: space-between; */
   /* DEBUG */
   background-color: blueviolet;
 }
@@ -28,8 +26,21 @@ main {
 /* App */
 .app {
   flex: 1;
-  /* DEBUG */
-  background-color: white;
+  background-color: rgb(20, 25, 34);
+}
+
+.app-header {
+  background-color: rgba(8, 11, 18, 0.5);
+  height: 100px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 5;
+}
+
+.app-content {
 }
 
 /* Generals */
