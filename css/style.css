@@ -17,8 +17,8 @@ body {
 }
 
 main {
-  flex-grow: 1;
   display: flex;
+  height: calc(100% - 80px);
   /* DEBUG */
   background-color: blueviolet;
 }
@@ -26,18 +26,29 @@ main {
 /* App */
 .app {
   flex: 1;
+  overflow-y: scroll;
   background-color: rgb(20, 25, 34);
 }
 
 .app-header {
   background-color: rgba(8, 11, 18, 0.5);
-  height: 100px;
+  height: 80px;
   position: sticky;
   top: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   z-index: 5;
+  padding-right: 20px;
+}
+
+.app-header button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50px;
+  background-color: rgba(8, 11, 18, 0.5);
 }
 
 .app-content {
