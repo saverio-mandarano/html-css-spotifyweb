@@ -326,7 +326,7 @@ footer {
   border-radius: 50%;
 }
 
-/* APP CONTENT */
+/* NAV-BAR */
 .nav-bar ul {
   display: flex;
   align-items: center;
@@ -342,4 +342,16 @@ footer {
 
 .nav-bar ul li:hover {
   color: white;
+}
+
+/* APP-CONTENT */
+.app-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.recently-played h2 {
+  color: white;
+  padding-left: 20px;
 }
