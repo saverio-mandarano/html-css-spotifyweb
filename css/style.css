@@ -194,7 +194,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1px;
+  gap: 10px;
 }
 
 .player-controls {
@@ -204,11 +204,30 @@ footer {
   gap: 15px;
 }
 
-.progress-bar {
+.player-time {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1px;
+  gap: 20px;
+  color: white;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.time-container {
+  width: 400px;
+  height: 5px;
+  background: grey;
+  border-radius: 3px;
+}
+
+.time-bar {
+  height: 100%;
+  width: 20%;
+  background: #fff;
+  border-radius: 3px;
 }
 
 /* music-setting */
