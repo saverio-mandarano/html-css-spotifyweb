@@ -398,3 +398,14 @@ h4 {
   color: white;
   margin-bottom: 1rem;
 }
+
+/* POPULAR ARTIST  */
+.popular-artist .img-wrapper img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.popular-artist .card {
+  margin-right: 20px;
+}
