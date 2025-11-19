@@ -351,11 +351,6 @@ footer {
   gap: 30px;
 }
 
-.recently-played h2 {
-  color: white;
-  padding-left: 20px;
-}
-
 .img-wrapper img {
   width: 100%;
 }
@@ -373,4 +368,27 @@ footer {
   width: calc(100% / 6 - (100px / 6));
   position: relative;
   cursor: pointer;
+}
+
+.info ul li {
+  text-align: center;
+  padding: 10px;
+}
+
+.info ul li:first-child {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.info ul li:nth-child(2) {
+  color: grey;
+  font-size: 15px;
+}
+
+/* Generals */
+h2 {
+  color: white;
+  padding-left: 20px;
+  font-weight: 900;
 }
