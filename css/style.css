@@ -51,6 +51,10 @@ main {
   background-color: rgba(8, 11, 18, 0.5);
 }
 
+.app-header button:hover {
+  font-size: 15px;
+}
+
 /* Generals */
 ul {
   list-style: none;
@@ -79,11 +83,11 @@ ul {
   margin-bottom: 10px;
 }
 
-ul li.icon-nav img {
+li.icon-nav img {
   width: 15%;
 }
 
-ul li.icon-nav {
+li.icon-nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -94,7 +98,7 @@ ul li.icon-nav {
   color: grey;
 }
 
-ul li.icon-nav:hover {
+li.icon-nav:hover {
   color: #fff;
 }
 
