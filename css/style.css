@@ -79,31 +79,23 @@ ul {
   margin-bottom: 10px;
 }
 
-.side-bar .icon-nav img {
+ul li.icon-nav img {
   width: 15%;
 }
 
-.icon-nav {
+ul li.icon-nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
   padding-left: 10px;
   margin-bottom: 10px;
-}
-
-.icon-nav h5 {
-  color: grey;
   cursor: pointer;
+  color: grey;
 }
 
-.icon-nav h5:hover {
+ul li.icon-nav:hover {
   color: #fff;
-}
-
-h4 {
-  color: white;
-  margin-bottom: 1rem;
 }
 
 .playlist {
@@ -396,4 +388,9 @@ h2 {
 h5 {
   color: grey;
   padding: 20px;
+}
+
+h4 {
+  color: white;
+  margin-bottom: 1rem;
 }
