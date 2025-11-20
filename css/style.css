@@ -329,7 +329,7 @@ footer .fa-circle-play:hover {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .nav-bar ul li {
