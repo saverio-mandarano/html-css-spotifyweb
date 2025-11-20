@@ -43,14 +43,26 @@
   .music-info .icon .fa-regular {
     width: 100%;
   }
-
-  .music-player {
-    flex: 2;
-  }
 }
 
 /* Extra small: da 575px in giù */
 @media screen and (max-width: 575px) {
   .nav-bar ul li {
+  }
+
+  .music-info .info {
+    width: 50px;
+  }
+
+  .music-setting {
+    gap: 5px;
+  }
+
+  .player-time {
+    gap: 10px;
+  }
+
+  .player-controls {
+    gap: 10px;
   }
 }
