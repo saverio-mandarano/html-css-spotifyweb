@@ -24,6 +24,32 @@ main {
   background-color: blueviolet;
 }
 
+/* Generals */
+h2 {
+  color: white;
+  padding-left: 20px;
+  font-weight: 900;
+}
+
+h5 {
+  color: grey;
+  padding: 20px;
+}
+
+h4 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
 /* App */
 .app {
   flex: 1;
@@ -56,14 +82,8 @@ main {
   font-size: 15px;
 }
 
-/* Generals */
-ul {
-  list-style: none;
-}
-
 /* Side-bar */
 .side-bar {
-  /* DEBUG */
   background-color: black;
   flex-basis: 180px;
   display: flex;
@@ -229,10 +249,6 @@ footer {
 }
 
 /* icone */
-/* .fa-heart {
-  margin-left: 20px;
-} */
-
 .fa-regular {
   font-size: 18px;
   color: grey;
@@ -362,9 +378,10 @@ footer .fa-circle-play:hover {
 .nav-bar ul li {
   color: grey;
   cursor: pointer;
+  position: relative;
 }
 
-.nav-bar ul li:hover {
+.nav-bar ul li a:hover {
   color: white;
 }
 
@@ -408,23 +425,6 @@ footer .fa-circle-play:hover {
   font-size: 15px;
 }
 
-/* Generals */
-h2 {
-  color: white;
-  padding-left: 20px;
-  font-weight: 900;
-}
-
-h5 {
-  color: grey;
-  padding: 20px;
-}
-
-h4 {
-  color: white;
-  margin-bottom: 1rem;
-}
-
 /* POPULAR ARTIST  */
 .popular-artist .img-wrapper img {
   width: 100%;
@@ -448,4 +448,19 @@ h4 {
 
 .img-wrapper:hover .centro {
   opacity: 1;
+}
+
+/* TRATTINO VERDE SOTTO I LINK */
+.green-hover {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 50%;
+  height: 2px;
+  background-color: greenyellow;
+}
+
+.nav-bar ul li a:hover .green-hover {
+  display: block;
 }
