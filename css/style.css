@@ -128,9 +128,10 @@ li.icon-nav {
   margin-bottom: 10px;
   cursor: pointer;
   color: grey;
+  position: relative;
 }
 
-li.icon-nav:hover {
+li.icon-nav a:hover {
   color: #fff;
 }
 
@@ -150,7 +151,7 @@ li.icon-nav:hover {
 }
 
 .playlist ul li:first-child {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* lower-bar-section */
@@ -196,6 +197,114 @@ li.icon-nav:hover {
 
 .user-area h5 {
   color: white;
+}
+
+/* NAV-BAR */
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 30px;
+  padding: 20px;
+}
+
+.nav-bar ul li {
+  position: relative;
+}
+
+.nav-bar ul li a:hover {
+  color: white;
+}
+
+/* TRATTINO VERDE SOTTO I LINK */
+.green-hover {
+  display: none;
+  position: absolute;
+
+  background-color: greenyellow;
+}
+
+.green-hover.left {
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}
+
+.green-hover.bottom {
+  top: 25px;
+  left: 25px;
+  width: 50%;
+  height: 2px;
+}
+
+ul li a:hover .green-hover {
+  display: block;
+}
+
+/* APP-CONTENT */
+.app-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.img-wrapper img {
+  width: 100%;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: calc(100% / 6 - (100px / 6));
+  position: relative;
+  cursor: pointer;
+}
+
+.info ul li {
+  text-align: center;
+  padding: 10px;
+}
+
+.info ul li:first-child {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.info ul li:nth-child(2) {
+  color: grey;
+  font-size: 15px;
+}
+
+/* POPULAR ARTIST  */
+.popular-artist .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* heart section */
+.img-wrapper {
+  position: relative;
+}
+
+.centro {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.img-wrapper:hover .centro {
+  opacity: 1;
 }
 
 /* footer */
@@ -246,37 +355,6 @@ footer {
 
 .music-info .info h6:hover {
   color: white;
-}
-
-/* icone */
-.fa-regular {
-  font-size: 18px;
-  color: grey;
-  cursor: pointer;
-}
-
-.fa-regular:hover {
-  color: white;
-}
-
-.fa-solid {
-  color: white;
-  font-size: 15px;
-}
-
-.fa-circle-play {
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-footer .fa-circle-play:hover {
-  font-size: 33px;
-}
-
-.music-setting .fa-solid {
-  color: white;
-  font-size: 12px;
 }
 
 /* MUSIC-PLAYER */
@@ -366,101 +444,37 @@ footer .fa-circle-play:hover {
   border-radius: 50%;
 }
 
-/* NAV-BAR */
-.nav-bar ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px 30px;
-  padding: 20px;
-}
-
-.nav-bar ul li {
+/* icone */
+.fa-regular {
+  font-size: 18px;
   color: grey;
   cursor: pointer;
-  position: relative;
 }
 
-.nav-bar ul li a:hover {
+.fa-regular:hover {
   color: white;
 }
 
-/* APP-CONTENT */
-.app-content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.img-wrapper img {
-  width: 100%;
-}
-
-.cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-}
-
-.card {
-  width: calc(100% / 6 - (100px / 6));
-  position: relative;
-  cursor: pointer;
-}
-
-.info ul li {
-  text-align: center;
-  padding: 10px;
-}
-
-.info ul li:first-child {
+.fa-solid {
   color: white;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.info ul li:nth-child(2) {
-  color: grey;
   font-size: 15px;
 }
 
-/* POPULAR ARTIST  */
-.popular-artist .img-wrapper img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+.fa-circle-play {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
 }
 
-/* heart section */
-.img-wrapper {
-  position: relative;
+footer .fa-circle-play:hover {
+  font-size: 33px;
 }
 
-.centro {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  font-size: 60px;
-  transform: translate(-50%, -50%);
-  opacity: 0;
+.music-setting .fa-solid {
+  color: white;
+  font-size: 12px;
 }
 
-.img-wrapper:hover .centro {
-  opacity: 1;
-}
-
-/* TRATTINO VERDE SOTTO I LINK */
-.green-hover {
-  display: none;
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  width: 50%;
-  height: 2px;
-  background-color: greenyellow;
-}
-
-.nav-bar ul li a:hover .green-hover {
-  display: block;
+.fa-square-plus {
+  font-size: 20px;
 }
