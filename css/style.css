@@ -84,6 +84,16 @@ ul {
   margin-bottom: 10px;
 }
 
+.logo-small {
+  padding: 8px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.logo-small img {
+  width: 20%;
+}
+
 li.icon-nav img {
   width: 15%;
 }

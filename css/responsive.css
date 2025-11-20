@@ -71,4 +71,18 @@
   .player-controls {
     gap: 10px;
   }
+  /* sidebar */
+  .side-bar span,
+  .side-bar .logo,
+  .side-bar h4,
+  .side-bar h5,
+  .side-bar li:not(.icon-nav),
+  .side-bar .playlist ul li,
+  .side-bar .playlist h4 {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+  }
 }
