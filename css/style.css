@@ -188,10 +188,6 @@ footer {
   align-items: center;
 }
 
-footer > div {
-  flex: 1;
-}
-
 /* music-info */
 .music-info {
   display: flex;
@@ -274,6 +270,7 @@ footer .fa-circle-play:hover {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  width: 45%;
 }
 
 .player-controls {
@@ -296,6 +293,7 @@ footer .fa-circle-play:hover {
   align-items: center;
   gap: 20px;
   color: white;
+  width: 100%;
 }
 
 .time {
@@ -303,7 +301,6 @@ footer .fa-circle-play:hover {
 }
 
 .time-container {
-  width: 400px;
   height: 5px;
   background: grey;
   border-radius: 3px;
@@ -356,7 +353,7 @@ footer .fa-circle-play:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 20px 30px;
   padding: 20px;
 }
 
@@ -432,10 +429,6 @@ h4 {
   height: 100%;
   border-radius: 50%;
 }
-
-/* .popular-artist .card {
-  margin-right: 20px;
-} */
 
 /* heart section */
 .img-wrapper {

@@ -9,15 +9,6 @@
   .nav-bar ul {
     flex-wrap: wrap;
   }
-
-  .nav-bar ul li {
-    padding-bottom: 20px;
-    width: calc(100% / 5 - (80px / 5));
-  }
-
-  .time-container {
-    width: 220px;
-  }
 }
 
 /* Small: da 767px in giù */
@@ -26,20 +17,8 @@
     width: calc(100% / 2 - (20px / 2));
   }
 
-  .nav-bar ul li {
-    width: calc(100% / 3 - (40px / 3));
-  }
-
-  .time-container {
-    width: 100px;
-  }
-
   .music-setting {
     padding-right: 0px;
-  }
-
-  .music-setting .time-container {
-    width: 70px;
   }
 
   .music-info .icon .fa-regular {
@@ -49,13 +28,6 @@
 
 /* Extra small: da 575px in giù */
 @media screen and (max-width: 575px) {
-  .nav-bar ul {
-    gap: 10px;
-  }
-  .nav-bar ul li {
-    width: calc(100% / 4 - (30px / 4));
-  }
-
   .music-info .info {
     width: 50px;
   }
