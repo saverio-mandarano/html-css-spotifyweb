@@ -170,25 +170,42 @@ li.icon-nav:hover {
 /* footer */
 footer {
   height: 80px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  /* DEBUG */
+
   background-color: rgb(40, 40, 40);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+footer > div {
+  flex: 1;
+}
+
 /* music-info */
 .music-info {
   display: flex;
-  padding: 10px;
+  padding-left: 10px;
   gap: 10px;
   align-items: center;
 }
 
+.music-info .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.music-info .info h5 {
+  padding: 0;
+}
+
+.music-info .icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .music-info img {
-  width: 10%;
+  width: 40px;
 }
 
 .info h5 {
@@ -205,9 +222,9 @@ footer {
 }
 
 /* icone */
-.fa-heart {
+/* .fa-heart {
   margin-left: 20px;
-}
+} */
 
 .fa-regular {
   font-size: 18px;

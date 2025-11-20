@@ -2,16 +2,20 @@
 @media screen and (max-width: 991px) {
   .card {
     width: calc(100% / 4 - (60px / 4));
+    flex-shrink: 1;
+    flex-grow: 1;
   }
 
   .nav-bar ul {
     flex-wrap: wrap;
-    gap: 10px;
   }
 
   .nav-bar ul li {
-    width: calc(100% / 5 - (40px / 5));
     padding-bottom: 20px;
+  }
+
+  .time-container {
+    width: 220px;
   }
 }
 
@@ -22,21 +26,31 @@
   }
 
   .nav-bar ul li {
-    width: calc(100% / 3 - (20px / 3));
-    padding-bottom: 20px;
+  }
+
+  .time-container {
+    width: 100px;
+  }
+
+  .music-setting {
+    padding-right: 0px;
+  }
+
+  .music-setting .time-container {
+    width: 70px;
+  }
+
+  .music-info .icon .fa-regular {
+    width: 100%;
+  }
+
+  .music-player {
+    flex: 2;
   }
 }
 
 /* Extra small: da 575px in giù */
 @media screen and (max-width: 575px) {
   .nav-bar ul li {
-    width: calc(100% / 3 - (20px / 3));
-    padding-bottom: 20px;
-  }
-
-  .nav-bar ul li {
-    width: calc(100% / 4 - (30px / 4));
-    padding-bottom: 20px;
-    font-size: 9px;
   }
 }
