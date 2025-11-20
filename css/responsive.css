@@ -1,0 +1,7 @@
+/* Tablet: da 768px in giù */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile: da 480px in giù */
+@media screen and (max-width: 480px) {
+}
