@@ -278,6 +278,8 @@ footer .fa-circle-play:hover {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  line-height: 32px;
+  height: 32px;
 }
 
 .player-controls i {
