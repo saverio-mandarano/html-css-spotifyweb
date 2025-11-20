@@ -1,7 +1,24 @@
-/* Tablet: da 768px in giù */
-@media screen and (max-width: 768px) {
+/* Medium: da 991px in giù */
+@media screen and (max-width: 991px) {
+  .card {
+    width: calc(100% / 4 - (60px / 4));
+  }
+
+  .nav-bar ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-bar ul li {
+    width: calc(100% / 5 - (40px / 5));
+    padding-bottom: 10px;
+  }
 }
 
-/* Mobile: da 480px in giù */
-@media screen and (max-width: 480px) {
+/* Small: da 767px in giù */
+@media screen and (max-width: 767px) {
+}
+
+/* Extra small: da 575px in giù */
+@media screen and (max-width: 575px) {
 }
