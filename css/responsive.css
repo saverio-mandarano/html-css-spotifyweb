@@ -73,16 +73,31 @@
   }
   /* sidebar */
   .side-bar span,
+  .side-bar hr,
   .side-bar .logo,
   .side-bar h4,
   .side-bar h5,
-  .side-bar li:not(.icon-nav),
   .side-bar .playlist ul li,
   .side-bar .playlist h4 {
     display: none;
   }
 
+  .side-bar .download {
+  }
+
+  .side-bar .user-area img {
+  }
+
   .logo-small {
     display: block;
+  }
+
+  .lower-bar {
+    gap: 10px;
+    padding-left: 5px;
+  }
+
+  .side-bar {
+    flex-basis: 50px;
   }
 }
